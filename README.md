@@ -217,6 +217,9 @@ root. Available configuration options:
 - `closeBrowser`_default `false`_ - `true` forces the browser to close and reopen between each page render, some sites might need this to prevent URLs past the first one rendered returning null responses.
 - `restrictedUrlPattern`_default `null`_ - set the restrictedUrlPattern to restrict the requests matching given regex pattern.
 
+- `googleChromePath` _default `/usr/bin/google-chrome`_ - set the path to Google Chrome.
+- `verboseLogging` _default `false`_ - Enable verbose logging of requests.
+
 #### cacheConfig
 
 - `cacheDurationMinutes` _default `1440`_ - set an expiry time in minues, defaults to 24 hours. Set to -1 to disable cache Expiration
